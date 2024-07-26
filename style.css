@@ -1,0 +1,75 @@
+#Header{
+    display: flex;
+    height: 120px;
+    border : 1px solid;
+    background-color:rgb(151, 114, 114);
+}
+.Header_logo{
+    width: 15%;
+    padding: 5px 10px 0px 30px;
+}
+.nav_bar{
+    width: 60%;
+    height: 120px;
+}
+.header_btn{
+    width:25%;
+    height: 120px;
+}
+ul{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+li{
+    display:inline;
+    padding:0px 5px 0px 10px;
+    font: size 25px;
+}
+.btn_1{
+    background-color: rgb(9, 15, 15);
+    color: rgb(173, 154, 129);
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+.box{ 
+    display:flex;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+    
+}
+.box1 ,.box2 ,.box3{
+    display:flex;
+    width: 30.5%;
+    height: 250px;
+    border: 3px solid rgb(73, 4, 4);
+    border-radius: 10px;
+    margin-left: 25px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px black;
+    background-color:rgb(160, 73, 73);
+}
+.box_btn{
+    background-color:rgb(31, 82, 82);
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box_btn:hover{
+    background-color: lightblue;
+    color:rgb(7, 2, 2) ;
+
+}
+.box1:hover, .box2:hover, .box3:hover{
+
+background-color: lavenderblush ( 0, 0, 0, 0, 20);
+box-shadow: black 10px 20px;
+
+}
